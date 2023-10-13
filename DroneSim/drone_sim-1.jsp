@@ -1,12 +1,7 @@
 <html>
   <head>
     
-      <%
-        // ###############################
-        // Create two int variables -- iCols and iRows -- and fill them with params passed in called "colcount" and "rowcount".
-        // You'll have to convert those incoming strings to ints.
-        // ###############################
-		
+      <%	
 		int iCols = Integer.parseInt(request.getParameter("colcount"));
 		int iRows = Integer.parseInt(request.getParameter("rowcount"));
       %>
@@ -46,7 +41,7 @@
 
       <%
       // ###############################
-      // Create first line of for loop here that loops iRows times.
+      // Create first line of for loop here that loops the number of Rows.
       // ###############################
 	  
 	  	for(int y = 0; y < iRows; y++){
@@ -54,7 +49,7 @@
           <tr>
           <%
           // ###############################
-          // Create first line of for loop here that loops iCols times.
+          // Create first line of for loop here that loops the number of Cols.
           // ###############################
 			for(int x = 0; x < iCols; x++){
             %>
