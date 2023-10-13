@@ -39,13 +39,5 @@
 			</tr>
 		</table>
 	</form>
-      <!-- ###################################################
-      Create a form here where the action is set to "drone_sim.jsp".
-      Set a text input with name as "area_id".
-      Set a text input with name as "colcount".
-      Set a text input with name as "rowcount".
-      Create a button with text similar to this: "Create Area Grid".
-      ################################################### -->
-      
   </body>
 </html>
